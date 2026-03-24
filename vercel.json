@@ -1,6 +1,0 @@
-{
-  "routes": [
-    { "src": "/", "dest": "/CIB-LANDING PAGE.html" },
-    { "src": "/hub", "dest": "/CIB-MEMBER HUB.html" }
-  ]
-}
