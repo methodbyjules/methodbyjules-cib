@@ -182,7 +182,7 @@ footer{padding:2.5rem 5vw;border-top:0.5px solid rgba(255,255,255,0.08);display:
   <div class="nav-links">
     <a href="https://methodsbyjules.com/blog" target="_blank" class="nav-link">Blog</a>
     <a href="#pricing" class="nav-link">Pricing</a>
-    <a href="app.methodsbyjules.com" class="nav-link">Sign in</a>
+    <a href="https://app.methodsbyjules.com" class="nav-link">Sign in</a>
   </div>
   <button class="nav-menu-btn" onclick="toggleMenu()"><span></span><span></span><span></span></button>
   <a href="https://link.fastpaydirect.com/payment-link/69c2bda24ed3f557f5e84206" target="_blank" class="nav-cta">Get access — $47</a>
@@ -191,7 +191,7 @@ footer{padding:2.5rem 5vw;border-top:0.5px solid rgba(255,255,255,0.08);display:
 <div class="mobile-menu" id="mobile-menu">
   <a href="https://methodsbyjules.com/blog" target="_blank" onclick="toggleMenu()">Blog</a>
   <a href="#pricing" onclick="toggleMenu()">Pricing</a>
-  <a href="app.methodsbyjules.com" onclick="toggleMenu()">Sign in</a>
+  <a href="https://app.methodsbyjules.com" onclick="toggleMenu()">Sign in</a>
   <a href="https://link.fastpaydirect.com/payment-link/69c2bda24ed3f557f5e84206" target="_blank" onclick="toggleMenu()">Get access — $47</a>
 </div>
 
@@ -375,14 +375,14 @@ footer{padding:2.5rem 5vw;border-top:0.5px solid rgba(255,255,255,0.08);display:
   <div class="f-links">
     <a href="https://methodsbyjules.com/blog" target="_blank">Blog</a>
     <a href="#pricing">Pricing</a>
-    <a href="app.methodsbyjules.com">Sign in</a>
+    <a href="https://app.methodsbyjules.com">Sign in</a>
     <a href="https://link.fastpaydirect.com/payment-link/69c2bda24ed3f557f5e84206" target="_blank">Get access</a>
-    <a href="mailto:info@methodbyjules.com">Contact</a>
+    <a href="/cdn-cgi/l/email-protection#e980878f86a9848c9d81868d8b90839c858c9ac78a8684">Contact</a>
   </div>
   <div class="f-copy">&copy; 2025 Method by Jules. All rights reserved.</div>
 </footer>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 function toggleMenu(){document.getElementById("mobile-menu").classList.toggle("on");}
 
 const track=document.getElementById("carousel-track");
@@ -417,9 +417,4 @@ outer.addEventListener("touchstart",e=>{startX=e.touches[0].clientX;track.style.
 outer.addEventListener("touchmove",e=>{dragOffset=e.touches[0].clientX-startX;track.style.transform="translateX("+(currentTranslate+dragOffset)+"px)";},{passive:true});
 outer.addEventListener("touchend",e=>{Math.abs(dragOffset)>60?(dragOffset>0?carouselPrev():carouselNext()):setSlide(current,true);dragOffset=0;},{passive:true});
 
-window.addEventListener("resize",()=>setSlide(current,false));
-window.addEventListener("load",()=>setTimeout(()=>setSlide(0,false),50));
-setInterval(()=>carouselNext(),5000);
-</script>
-</body>
-</html>
+window.addEventListener("resize",()=>setSlide(c
